@@ -13,3 +13,6 @@ Pillow
 streamlit-player
 streamlit-echarts
 pyecharts==2.0.0
+openpyxl
+jinja2
+
