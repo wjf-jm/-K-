@@ -4,7 +4,8 @@ import numpy as np
 import math
 import matplotlib
 from matplotlib import pyplot as plt
-plt.rcParams['font.family'] = 'Heiti TC'  # 替换为你选择的字体
+plt.rcParams['font.sans-serif'] = ['Arial']  # 使用黑体（Windows 默认支持）
+plt.rcParams['axes.unicode_minus'] = False    # 解决负号显示问题
 
 PowerCurve = {3.0: 15.41, 3.5: 68.54, 4.0: 121.67, 4.5: 183.56, 5.0: 244.26, 5.5: 356.5,
                6.0: 446.2, 6.5: 580.93, 7.0: 706.97, 7.5: 872.96, 8.0: 1049.23, 8.5: 1226.03,
