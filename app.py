@@ -71,7 +71,7 @@ def k_visualization(k_dict, k_standard=0.95):
     plt.axhline(y=k_standard, color='red', linestyle='--', label='符合率标准95%')
     # 在柱状图上显示具体数值, ha参数控制水平对齐方式, va控制垂直对齐方式
     for x1, yy in zip(x, y):
-        plt.text(x1, yy, str(round(yy, 2)), ha='center', va='bottom', fontsize=5, rotation=0)
+        plt.text(x1, yy, str(round(yy, 2)), ha='center', va='bottom', fontsize=8, rotation=0)
     # 设置标题
     plt.title("机组符合率图示")
     # 为两条坐标轴设置名称
