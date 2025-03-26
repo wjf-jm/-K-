@@ -1,7 +1,7 @@
 requests
 pandas
 numpy
-streamlit==1.11.1
+streamlit==1.30.0
 click==8
 matplotlib==3.8.0
 matplotlib-inline==0.1.6
